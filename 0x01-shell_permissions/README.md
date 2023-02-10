@@ -11,3 +11,4 @@ varing sets of permissions
 mirrior permissions
 add permissions to subdirectories
 moredirectories
+change group
