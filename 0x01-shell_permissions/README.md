@@ -8,3 +8,4 @@ a script that adds execute permission to the owner and the group owner, and read
 a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 permission to others only
 varing sets of permissions
+mirrior permissions
