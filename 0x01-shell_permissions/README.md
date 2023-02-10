@@ -9,3 +9,4 @@ a script that adds execution permission to the owner, the group owner and the ot
 permission to others only
 varing sets of permissions
 mirrior permissions
+add permissions to subdirectories
