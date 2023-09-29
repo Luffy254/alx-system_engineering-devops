@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays the contents of the current directory for only after the first dash
+
+a=$(ls)
+for i in $a; do
+  echo "$i" | cut -d '-' -f2
+done
