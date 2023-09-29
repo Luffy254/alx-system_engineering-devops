@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# used to displays 'Best School' 10 times - until loop
+
+cont=0
+
+until [ $cont -eq 10 ]
+do
+  echo "Best School"
+  ((cont++))
+done
