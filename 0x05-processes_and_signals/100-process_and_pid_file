@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# script demonstrates signal handling and cleanup.
+
+echo $$ > /var/run/myscript.pid
+
+cleanup() {
+    echo "Cleaning up..."
+    rm /var/run/myscript.pid
+    exit
+}
+
+trap 'echo "I hate the kill command"; cleanup' SIGTERM SIGQUIT
+
+trap 'echo "Y U no love me?!"' SIGINT
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
