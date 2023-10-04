@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
-input_string = ARGF.read
-matches = input_string.scan(/School/)
+
+arg = ARGV[0]
+regex = /School/
+matches = arg.scan(regex)
 puts matches.join
